@@ -53,15 +53,15 @@ body{
 }
 
 #actual__research-title{
-    margin-right: 110px ;
+    margin-right: 113px ;
 }
 
 #actual__check-title{
-    margin-right: 74px;
+    margin-right: 76px;
 }
 
 #actual__create-title{
-    margin-right: 25px;
+    margin-right: 8px;
 }
 
 .actual__numeral{
@@ -91,19 +91,19 @@ body{
     margin-bottom: 10px;
 }
 
-.actual__check-title1, .actual__check-title2, .actual__check-title3, .actual__check-title4 {
+.actual__check-title1, .actual__check-title2, .actual__check-title3{
     margin-bottom: 10px;
 }
 
-.actual__check-subtitle3, .actual__check-subtitle4{
+.actual__check-subtitle3{
     margin-bottom: 20px;
 }
 
-.actual__create-title1, .actual__create-title2, .actual__create-title3, .actual__create-title4 {
+.actual__create-title1, .actual__create-title2 {
     margin-bottom: 10px;
 }
 
-.actual__create-subtitle3, .actual__create-subtitle4{
+.actual__create-subtitle1, .actual__create-subtitle2{
     margin-bottom: 20px;
 }
 
