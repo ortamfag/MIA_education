@@ -46,14 +46,19 @@ body{
     font-size: 20px;
 }
 
-.actual__management-title{
+.actual__management-title, .actual__research-title{
     align-self: center;
 
-    margin-right: 60px;
+    margin-right: 80px;
+}
+
+#actual__research-title{
+    margin-right: 100px;
 }
 
 .actual__numeral{
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 
     background-color: var(--purple);
     border-radius: 15px;
@@ -62,27 +67,17 @@ body{
 }
 
 
-
 .actual__numeral-text{
     padding: 20px;
-
-    width: 40%;
 }
 
-.actual__management-paragraph1{
+.actual__management-title1, .actual__management-title2, .actual__management-title3, .actual__management-title4 {
+    margin-bottom: 10px;
 }
 
-.actual__management-paragraph2{
-
+.actual__management-subtitle3, .actual__management-subtitle4{
+    margin-bottom: 20px;
 }
-
-.actual__management-paragraph3{
-}
-
-.actual__numeral-paragraph4{
-    width: 130%;   
-}
-
 
 
 .actual__title{
@@ -106,6 +101,10 @@ body{
 
 .actual__white-paragraph{
     color: var(--white-text);
+}
+
+.actual__management, .actual__research{
+    margin-bottom: 30px;
 }
 
 
