@@ -7,6 +7,8 @@
 :root {
 	--purple: #6E4A88;
     --purple-light: #7F4A88;    
+    --purple-text: #4A266A;
+    --pink-text: #BF6188;
 	--pink: #F7C5C4;
 	--pink-rgb: 247, 197, 196;
 	--black-text: #000000;
@@ -17,3 +19,94 @@
 body{
     font-family: 'Roboto', sans-serif;
 }
+
+.flex{
+    display: flex;
+}
+
+/* boostrap container */ 
+.container {
+	width: 100%;
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+@media (min-width: 576px) { .container { max-width: 540px } }
+@media (min-width: 768px) { .container { max-width: 720px } }
+@media (min-width: 992px) { .container { max-width: 960px } }
+@media (min-width: 1200px) { .container { max-width: 1140px } }
+/* /bootstrap container */
+
+
+/*actual*/
+.actual{
+    background-color: var(--white-bg);
+    font-size: 20px;
+}
+
+.actual__management-title{
+    align-self: center;
+
+    margin-right: 60px;
+}
+
+.actual__numeral{
+    flex-wrap: wrap;
+
+    background-color: var(--purple);
+    border-radius: 15px;
+
+    font-size: 17px;
+}
+
+
+
+.actual__numeral-text{
+    padding: 20px;
+
+    width: 40%;
+}
+
+.actual__management-paragraph1{
+}
+
+.actual__management-paragraph2{
+
+}
+
+.actual__management-paragraph3{
+}
+
+.actual__numeral-paragraph4{
+    width: 130%;   
+}
+
+
+
+.actual__title{
+    font-size: 35px;
+    color: var(--purple-text);
+
+    margin-bottom: 30px;
+}
+
+.actual__subtitle{
+    margin-bottom: 70px;
+}
+
+.actual__black-paragraph{
+    color: var(--black-text);
+}
+
+.actual__pink-paragraph{
+    color: var(--pink-text);
+}
+
+.actual__white-paragraph{
+    color: var(--white-text);
+}
+
+
+/*actual*/
