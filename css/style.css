@@ -65,8 +65,10 @@ body{
 
 /*actual*/
 .actual{
-    background-color: var(--white-bg);
     font-size: 20px;
+
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .actual__management-title, .actual__research-title, .actual__create-title, .actual__check-title{
@@ -184,5 +186,13 @@ body{
 
 .actual__button-paragraph{
     text-align: center;
+}
+
+.actual__title-img{
+    z-index: -1;
+}
+
+.actual__title-text{
+    align-self: center;
 }
 /*actual*/
