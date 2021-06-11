@@ -46,14 +46,22 @@ body{
     font-size: 20px;
 }
 
-.actual__management-title, .actual__research-title{
+.actual__management-title, .actual__research-title, .actual__create-title, .actual__check-title{
     align-self: center;
 
-    margin-right: 80px;
+    margin-right: 90px;
 }
 
 #actual__research-title{
-    margin-right: 100px;
+    margin-right: 110px ;
+}
+
+#actual__check-title{
+    margin-right: 74px;
+}
+
+#actual__create-title{
+    margin-right: 25px;
 }
 
 .actual__numeral{
@@ -79,6 +87,25 @@ body{
     margin-bottom: 20px;
 }
 
+.actual__research-title1, .actual__research-title2, .actual__research-title3, .actual__research-title4, .actual__research-title5, .actual__research-title6 {
+    margin-bottom: 10px;
+}
+
+.actual__check-title1, .actual__check-title2, .actual__check-title3, .actual__check-title4 {
+    margin-bottom: 10px;
+}
+
+.actual__check-subtitle3, .actual__check-subtitle4{
+    margin-bottom: 20px;
+}
+
+.actual__create-title1, .actual__create-title2, .actual__create-title3, .actual__create-title4 {
+    margin-bottom: 10px;
+}
+
+.actual__create-subtitle3, .actual__create-subtitle4{
+    margin-bottom: 20px;
+}
 
 .actual__title{
     font-size: 35px;
@@ -103,7 +130,7 @@ body{
     color: var(--white-text);
 }
 
-.actual__management, .actual__research{
+.actual__management, .actual__research, .actual__check, .actual__create{
     margin-bottom: 30px;
 }
 
