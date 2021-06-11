@@ -10,6 +10,7 @@
     --purple-text: #4A266A;
     --pink-text: #BF6188;
 	--pink: #F7C5C4;
+    --pink-button: #C96588;
 	--pink-rgb: 247, 197, 196;
 	--black-text: #000000;
 	--white-bg: #fff;
@@ -24,6 +25,28 @@ body{
     display: flex;
 }
 
+.pink-button{
+    padding: 15px;
+    background-color: var(--pink-button);
+    color: var(--white-text);
+
+    border: 0.5px solid var(--pink-button);
+    border-radius: 20px;
+
+    margin-top: 20px;
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 23px;
+
+    width: 300px;
+}
+
+.pink-button:hover{
+    transition: 0.4s;
+
+    color: var(--black-text);
+    background-color: var(--white-bg);
+}
 /* boostrap container */ 
 .container {
 	width: 100%;
@@ -116,6 +139,7 @@ body{
 
 .actual__subtitle{
     margin-bottom: 70px;
+    width: 771px;
 }
 
 .actual__black-paragraph{
@@ -134,5 +158,31 @@ body{
     margin-bottom: 30px;
 }
 
+.actual__footer{
+    margin-top: 50px;
+}
 
+.actual__footer-text{
+    flex-direction: column;
+
+    align-self: center;
+}
+
+.actual__footer-img{
+    width: 45%;
+
+    margin-right: 40px;
+}
+
+.actual__footer-title{
+    font-size: 30px;
+    align-self: center;
+    text-align: center;
+
+    margin-bottom: 25px;
+}
+
+.actual__button-paragraph{
+    text-align: center;
+}
 /*actual*/
