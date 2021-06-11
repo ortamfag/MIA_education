@@ -1,0 +1,19 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+:root {
+	--purple: #6E4A88;
+    --purple-light: #7F4A88;    
+	--pink: #F7C5C4;
+	--pink-rgb: 247, 197, 196;
+	--black-text: #000000;
+	--white-bg: #fff;
+	--white-text: #fff;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
