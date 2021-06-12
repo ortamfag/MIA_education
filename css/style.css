@@ -1,0 +1,198 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+:root {
+	--purple: #6E4A88;
+    --purple-light: #7F4A88;    
+    --purple-text: #4A266A;
+    --pink-text: #BF6188;
+	--pink: #F7C5C4;
+    --pink-button: #C96588;
+	--pink-rgb: 247, 197, 196;
+	--black-text: #000000;
+	--white-bg: #fff;
+	--white-text: #fff;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.flex{
+    display: flex;
+}
+
+.pink-button{
+    padding: 15px;
+    background-color: var(--pink-button);
+    color: var(--white-text);
+
+    border: 0.5px solid var(--pink-button);
+    border-radius: 20px;
+
+    margin-top: 20px;
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 23px;
+
+    width: 300px;
+}
+
+.pink-button:hover{
+    transition: 0.4s;
+
+    color: var(--black-text);
+    background-color: var(--white-bg);
+}
+/* boostrap container */ 
+.container {
+	width: 100%;
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+@media (min-width: 576px) { .container { max-width: 540px } }
+@media (min-width: 768px) { .container { max-width: 720px } }
+@media (min-width: 992px) { .container { max-width: 960px } }
+@media (min-width: 1200px) { .container { max-width: 1140px } }
+/* /bootstrap container */
+
+
+/*actual*/
+.actual{
+    font-size: 20px;
+
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.actual__management-title, .actual__research-title, .actual__create-title, .actual__check-title{
+    align-self: center;
+
+    margin-right: 90px;
+}
+
+#actual__research-title{
+    margin-right: 113px ;
+}
+
+#actual__check-title{
+    margin-right: 76px;
+}
+
+#actual__create-title{
+    margin-right: 8px;
+}
+
+.actual__numeral{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    background-color: var(--purple);
+    border-radius: 15px;
+
+    font-size: 17px;
+}
+
+
+.actual__numeral-text{
+    padding: 20px;
+}
+
+.actual__management-title1, .actual__management-title2, .actual__management-title3, .actual__management-title4 {
+    margin-bottom: 10px;
+}
+
+.actual__management-subtitle3, .actual__management-subtitle4{
+    margin-bottom: 20px;
+}
+
+.actual__research-title1, .actual__research-title2, .actual__research-title3, .actual__research-title4, .actual__research-title5, .actual__research-title6 {
+    margin-bottom: 10px;
+}
+
+.actual__check-title1, .actual__check-title2, .actual__check-title3{
+    margin-bottom: 10px;
+}
+
+.actual__check-subtitle3{
+    margin-bottom: 20px;
+}
+
+.actual__create-title1, .actual__create-title2 {
+    margin-bottom: 10px;
+}
+
+.actual__create-subtitle1, .actual__create-subtitle2{
+    margin-bottom: 20px;
+}
+
+.actual__title{
+    font-size: 35px;
+    color: var(--purple-text);
+
+    margin-bottom: 30px;
+}
+
+.actual__subtitle{
+    margin-bottom: 70px;
+    width: 771px;
+}
+
+.actual__black-paragraph{
+    color: var(--black-text);
+}
+
+.actual__pink-paragraph{
+    color: var(--pink-text);
+}
+
+.actual__white-paragraph{
+    color: var(--white-text);
+}
+
+.actual__management, .actual__research, .actual__check, .actual__create{
+    margin-bottom: 30px;
+}
+
+.actual__footer{
+    margin-top: 50px;
+}
+
+.actual__footer-text{
+    flex-direction: column;
+
+    align-self: center;
+}
+
+.actual__footer-img{
+    width: 45%;
+
+    margin-right: 40px;
+}
+
+.actual__footer-title{
+    font-size: 30px;
+    align-self: center;
+    text-align: center;
+
+    margin-bottom: 25px;
+}
+
+.actual__button-paragraph{
+    text-align: center;
+}
+
+.actual__title-img{
+    z-index: -1;
+}
+
+.actual__title-text{
+    align-self: center;
+}
+/*actual*/
