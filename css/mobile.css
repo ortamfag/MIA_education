@@ -5,17 +5,13 @@
 
     .actual__management, .actual__research, .actual__check, .actual__create{
         flex-direction: column;
-
-        margin-left: auto;
-        margin-right: auto;
     }
 
     .actual__footer-img{
         display:none;
     }
 
-    .actual__title{
-        margin-left: 2.5rem;
+    .actual__title{ 
 
         text-align: center;
     }
@@ -24,13 +20,11 @@
         text-align: center;
         max-width: 18.75rem;
 
-        margin-left: 2.5rem;
-
         font-size: 25px;
     }
-    
+
     .actual__numeral{
-        margin: 0 auto;
+        display: block;
     }
 
     .actual__management-title{
@@ -38,7 +32,33 @@
     }
 
     .actual__management-title, .actual__research-title, .actual__check-title, .actual__create-title {
-        margin-bottom: 10px;
+        margin-bottom: 20px;
         text-align: center;
+
+        font-size: 25px;
+    }
+
+    .actual__management-title{
+        margin-left: 6rem;
+    }
+
+    .actual__research-title{
+        margin-left: 7rem;
+    }
+
+    .actual__create-title{
+        margin-left: 1rem;
+    }
+
+    .actual__check-title{
+        margin-left: 5rem;
+    }
+
+    .actual__numeral{
+        margin-left: 0.8rem;
+    }
+    
+    .pink-button{
+        width: 270px;
     }
 }
