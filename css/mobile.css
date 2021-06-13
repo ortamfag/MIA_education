@@ -1,0 +1,38 @@
+@media (max-width: 500px){
+    .actual__title-img{
+        display: none;
+    }
+
+    .actual__management, .actual__research, .actual__check, .actual__create{
+        flex-direction: column;
+
+        margin-left: auto;
+        margin-right: auto;
+
+        width: 300px;
+    }
+
+    .actual__footer-img{
+        display:none;
+    }
+
+    .actual__title{
+        text-align: center;
+    }
+
+    .actual__subtitle{
+        text-align: center;
+    }
+    
+    .actual__numeral{
+        margin: 0 auto;
+    }
+
+    .actual__management-title{
+        margin-bottom: 10px;
+    }
+
+    .actual__management-title, .actual__research-title, .actual__check-title, .actual__create-title {
+        margin-bottom: 10px;
+    }
+}

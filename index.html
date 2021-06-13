@@ -5,11 +5,43 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/mobile.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
     <title>Главная</title>
 </head>
 <body class="body">
+
+    <!-- burger menu -->
+	<div class="menu-burger">
+		<div></div>
+		<div></div>
+		<div></div>
+	</div>
+	<!-- end burger menu -->
+
+    <!-- sidebar menu -->
+	<nav class="nav">
+		<div class="nav__block">
+			<img
+				class="nav__logo"
+				src="images/logo-black.png" 
+				alt="Агенство инноваций города Москвы"
+			>
+
+			<a href="#innovations" class="nav__link">Актуальные решения</a>
+			<a href="#target_audience" class="nav__link">Топ-5 технологий будущего</a>
+			<a href="#technologies" class="nav__link">Системные сдвиги в сфере образования</a>
+			<a href="#conclusions" class="nav__link">Основные выводы<br> исследования</a>
+		</div>
+
+		<a href="https://innoagency.ru/files/Social_Protection_Innovations_AIM_2020.pdf" class="button-border">
+			<span class="button-border__text">Скачать исследование</span>
+		</a>
+	</nav>
+	<!-- end sidebar menu -->
+
+
     <main>
         <section class="actual" id="actual">
                 <div class="container actual__block-title flex">
@@ -163,5 +195,7 @@
                 </div>
         </section>
     </main>
+
+    <script src="js/script.js"></script>
 </body>
 </html>
