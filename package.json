@@ -15,5 +15,7 @@
   "bugs": {
     "url": "https://github.com/ortamfag/MIA_education/issues"
   },
-  "homepage": "https://github.com/ortamfag/MIA_education#readme"
+  "homepage": "https://github.com/ortamfag/MIA_education#readme",
+  "dependencies": {},
+  "devDependencies": {}
 }
