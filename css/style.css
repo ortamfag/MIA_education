@@ -600,3 +600,87 @@ a {
 }
 /* /modal */
 /*modals*/
+
+/* online.education*/
+
+.online_education__title{
+	text-align: center;
+	font-size: 25px;
+	color: #4a266a;
+	font-family: 'Roboto',sans-serif;
+	font-weight: 500;
+	margin-top: 65px;
+}
+
+.online_education__subtitle{
+	color: #000000;
+    font-size: 20px;
+    font-family: 'Roboto',sans-serif;
+    line-height: 1.25;
+    font-weight: 400;
+    background-position: center center;
+    border-color: transparent;
+    border-style: solid;
+	margin-top: 55px;
+	margin-bottom: 55px;
+}
+
+.online_education__colomn-title{
+	color: #bf6188;
+    font-size: 20px;
+    font-family: 'Roboto',Arial,sans-serif;
+    line-height: 1.55;
+    font-weight: 400;
+    background-position: center center;
+    border-color: transparent;
+    border-style: solid;
+	margin-top: 65px;
+	text-align: center;
+	margin-bottom: 55px;
+}
+
+.online_education__colomn-title1{
+	color: #bf6188;
+    font-size: 20px;
+    font-family: 'Roboto',Arial,sans-serif;
+    line-height: 1.55;
+    font-weight: 400;
+    background-position: center center;
+    border-color: transparent;
+    border-style: solid;
+	margin-top: 65px;
+	text-align: center;
+	margin-bottom: 25px;
+}
+
+.online_education__colomn-text{
+    color: #000000;
+    font-size: 17px;
+    font-family: 'Roboto',Arial,sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
+    background-position: center center;
+    border-color: transparent;
+    border-style: solid;
+	text-align: center;
+}
+
+.online_education__main{
+	display: -webkit-flex; 
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: stretch;
+}
+
+.online_education__colomn{
+	height: 330px;
+	width: 25%;
+	border-right: 4px solid #bf6188;
+}
+
+.online_education__colomn4{
+	height: 330px;
+	width: 25%;
+}
+
