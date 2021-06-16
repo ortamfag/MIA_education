@@ -22,6 +22,26 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 
+.header{
+	background-color: var(--purple-light);
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+}
+
+.header__wrapper{
+	display: flex;
+	flex-direction: column;
+	padding-left: 5%;
+	padding-right: 5%;
+}
+
+.wrapper__info{
+	display: flex;
+	align-items: center;
+}
+
 .flex{
     display: flex;
 }
