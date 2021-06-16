@@ -353,7 +353,6 @@ a {
 
 .technology{
 	background-color: var(--purple-light);
-	height: 1000Px;
 }
 
 .technology__title-h1{
@@ -365,7 +364,7 @@ a {
 }
 
 .technology__hashtags{
-	min-height: 800px;
+	min-height: 620px;
 	position: relative;
 	overflow: hidden;
 }
@@ -438,3 +437,62 @@ a {
 
 
 /*technology*/
+
+/*education*/
+
+.education{
+	background-color: var(--purple-light);
+}
+
+.education__title{
+	font-size: 35px;
+	color: var(--white-text);
+}
+
+.education__subtitle{
+	color: var(--white-text);
+	font-size: 17px;
+	line-height: 1.55;
+
+	margin-top: 40px;
+}
+
+.education__item{
+	flex-direction: column;
+	align-items: center;
+}
+
+.education__online-title{
+	margin-top: 5rem;
+
+	font-size: 20px;
+
+	color: var(--white-text);
+
+	text-align: center;
+}
+
+.education__popup{
+	padding: 15px;
+
+	font-size: 15px;
+	font-weight: bold;
+
+	border: 2px solid var(--pink-button);
+	background-color: var(--purple-light);
+	color: var(--white-text);
+	border-radius: 10px;
+
+	width: 329px;
+	height: 75px;
+}
+
+.education__popup-main{
+	margin-top: 50px;
+	margin-bottom: 35px;
+}
+
+
+
+
+/*education*/
