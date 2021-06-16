@@ -462,7 +462,7 @@ a {
 	align-items: center;
 }
 
-.education__online-title{
+.education__column-title{
 	margin-top: 5rem;
 
 	font-size: 20px;
@@ -470,6 +470,7 @@ a {
 	color: var(--white-text);
 
 	text-align: center;
+	min-height: 50px;
 }
 
 .education__popup{
