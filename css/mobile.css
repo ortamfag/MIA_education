@@ -111,6 +111,59 @@
 
     /* online.education*/
 
+    /* technology*/
+
+    .technology__title-h1{
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+
+    .technology__item-first{
+        left: 10%;
+        top: 2%;
+
+        font-size: 25px;
+    }
+
+    .technology__item-second{
+        left: 7%;
+        top: 24%;
+
+        font-size: 26px;
+    }
+
+    .technology__item-third{
+        left: 17%;
+        top: 12%;
+
+        font-size: 28px;
+
+    }
+
+    .technology__item-fourth{
+        font-size: 22px;
+
+        left: 5%;
+        top: 36%;
+    }
+
+    .technology__item-fifth{
+        font-size: 22px;
+        top: 48%;
+        left: 5%;
+    }
+
+    .technology__item-img{
+        width: 300px;
+        height: 200px;
+
+        top: 60%;
+        left: 0%;
+    }
+
+    /* technology*/
+
+
 
 }
 
