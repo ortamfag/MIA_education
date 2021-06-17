@@ -16,6 +16,7 @@
 	--black-text: #000000;
 	--white-bg: #fff;
 	--white-text: #fff;
+	--header-background: #7b4b89;
 }
 
 body{
@@ -28,7 +29,7 @@ body{
 
 /*header*/
 .header{
-	background-color: var(--purple-light);
+	background-color: var(--header-background);
 	display: flex;
 	justify-content: center;
 	align-content: center;
@@ -83,29 +84,44 @@ body{
 }
 
 .download__text{
-	text-decoration: underline;
+	position: relative;
 	color: var(--white-text);
 	font-size: 23px;
     font-family: 'Roboto',Arial,sans-serif;
-    line-height: 1.55;
-    font-weight: 400;
+}
+
+.download__text:before {
+	height: 1px;
+	width: 0%;
+	background: var(--white-bg);
+	transition: width .3s ease;
+
+	position: absolute;
+	content: '';
+	bottom: -3px;
+	left: 2px;
+}
+
+.download__text:hover:before {
+	width: 100%;
 }
 
 .functionals__add{
 	color: var(--purple-light);
-    font-size: 23px;
-    font-family: 'Roboto',Arial,sans-serif;
-    line-height: 1.55;
-    font-weight: 400;
-    border-width: 1px;
-    border-radius: 30px;
-    background-color: var(--white-text);
-    background-position: center center;
-    border-color: transparent;
-    border-style: solid;
-    transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
-    padding-left: 1%;
-    padding-right: 1%;
+    border-radius: 20px;
+
+	font-size: 18px;
+
+	padding: 20px;
+	width: 280px;
+	border: 0px;
+
+	cursor: pointer;
+}
+
+.functionals__add:hover{
+	transition: 0.3s;
+	transform: scale(1.05);
 }
 
 /*header*/
