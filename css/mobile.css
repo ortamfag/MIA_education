@@ -186,6 +186,39 @@
 
     /* education*/
 
+    /* conclusions*/
+    .conclusions__title{
+        text-align: center;
+    }
+
+    .conclusions__text{
+        text-align: center;
+
+        font-size: 25px;
+    }
+
+    .conclusions__subtitle{
+        text-align: center;
+    }
+
+    .conclusions__items{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .conclusions__button{
+        width: 280px;
+        margin-bottom: 20px;
+        margin-right: 0px;
+
+        height: 90px;
+    }
+
+    .conclusions__background{
+        display: none;
+    }
+    /* conclusions*/
+
 
 
 }
