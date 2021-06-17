@@ -163,6 +163,29 @@
 
     /* technology*/
 
+    
+    /* education*/
+    
+    .education__title{
+        text-align: center;
+
+        margin-top: -1px; /*потому что белая полоса*/
+    }
+
+    .education__subtitle{
+        text-align: center;
+    }
+
+    .education__main{
+        flex-direction: column;
+    }
+
+    .education__popup{
+        width: 280px;
+    }
+
+    /* education*/
+
 
 
 }
