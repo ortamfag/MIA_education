@@ -648,6 +648,8 @@ a {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+
+	border: 2px solid var(--purple-text);
 }
 
 .modal {
@@ -699,6 +701,16 @@ a {
 	flex-wrap: wrap;
 	justify-content: center;
 }
+
+.modal__title{
+	font-weight: 400;
+}
+
+.modal__hr{
+	border: 2px solid var(--purple-light);
+}
+
+
 /* /modal */
 /*modals*/
 
