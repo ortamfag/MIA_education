@@ -1,4 +1,5 @@
 @media (max-width: 500px){
+    /* actual*/
     .actual__title-img{
         display: none;
     }
@@ -61,6 +62,56 @@
     .pink-button{
         width: 270px;
     }
+
+    /* actual*/
+
+    /* online.education*/
+
+    .online_education__subtitle{
+        text-align: center;
+    }
+
+    .online_education__colomn{
+        border: 0px;
+        margin: 0 auto;
+        width: 100%;
+
+        height: 100%;
+    }
+
+    .online_education__colomn4{
+        border: 0px;
+        width: 100%;
+        height: 100%;
+        margin: 0 auto;
+
+        padding-bottom: 50px;
+    }
+
+    .online_education__main{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .online_education__colomn-title1{
+        text-align: center;
+        
+    }
+
+    .online_education__colomn-title{
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .online-education__colomn-text{
+        text-align: center;
+
+        width: 270px;
+    }
+
+    /* online.education*/
+
+
 }
 
 @media (min-width: 350px){
