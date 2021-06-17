@@ -21,7 +21,7 @@
         text-align: center;
         max-width: 18.75rem;
 
-        font-size: 25px;
+        font-size: 18px;
     }
 
     .actual__numeral{
@@ -61,6 +61,7 @@
     
     .pink-button{
         width: 270px;
+        margin-bottom: 25px;
     }
 
     /* actual*/
@@ -69,6 +70,7 @@
 
     .online_education__subtitle{
         text-align: center;
+        font-size: 18px;
     }
 
     .online_education__colomn{
@@ -95,12 +97,16 @@
 
     .online_education__colomn-title1{
         text-align: center;
-        
+        font-size: 22px;
+        font-weight: 500;
     }
 
     .online_education__colomn-title{
         text-align: center;
         margin-bottom: 20px;
+
+        font-size: 22px;
+        font-weight: 500;
     }
 
     .online-education__colomn-text{
@@ -184,6 +190,10 @@
         width: 280px;
     }
 
+    .education__column-title{
+        min-height: 0px;
+    }
+
     /* education*/
 
     /* conclusions*/
@@ -194,7 +204,7 @@
     .conclusions__text{
         text-align: center;
 
-        font-size: 25px;
+        font-size: 17px;
     }
 
     .conclusions__subtitle{
@@ -212,6 +222,7 @@
         margin-right: 0px;
 
         height: 90px;
+        font-weight: 700;
     }
 
     .conclusions__background{
