@@ -708,6 +708,40 @@ a {
 
 .modal__hr{
 	border: 2px solid var(--purple-light);
+	
+	margin-top: 20px;
+}
+
+.modal__header{
+	flex-direction: column;
+}
+
+.modal__quote{
+	margin-top: 20px;
+}
+
+.modal__header{
+	margin-left: 50px;
+}
+
+.modal__text{
+	font-size: 18px;
+}
+
+.modal__img{
+	align-self: center;
+}
+
+.modal__author{
+	font-size: 20px;
+	color: var(--pink-button);
+
+	margin-top: 30px;
+}
+
+.modal__main{
+	margin-top: 30px;
+	margin-bottom: 20px;
 }
 
 
