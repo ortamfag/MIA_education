@@ -14,4 +14,9 @@ const makeModal = modalSel => {
 }
 
 makeModal('#modal-1');
+makeModal('#modal-2');
+makeModal('#modal-3');
+makeModal('#modal-4');
+makeModal('#modal-5');
+makeModal('#modal-6');
 // end modals
