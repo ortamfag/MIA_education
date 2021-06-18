@@ -1,4 +1,4 @@
-@media (max-width: 500px){
+@media (max-width: 1000px){
     /* actual*/
     .actual__title-img{
         display: none;
@@ -16,6 +16,11 @@
 
         text-align: center;
     }
+
+	.actual__block-title {
+		display: flex;
+		justify-content: center;
+	}
 
     .actual__subtitle{
         text-align: center;
