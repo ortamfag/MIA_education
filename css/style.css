@@ -65,6 +65,8 @@ body{
     font-family: 'Roboto',Arial,sans-serif;
     padding-bottom: 14%;
     width: 90%;
+
+	font-weight: 400;
 }
 
 .head__text{
