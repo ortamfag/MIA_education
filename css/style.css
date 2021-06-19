@@ -775,6 +775,47 @@ a {
 	margin-bottom: 20px;
 }
 
+.modal__subtitle{
+	color: var(--pink-button);
+	font-size: 20px;
+	margin-top: 30px;
+
+	margin-bottom: 15px;
+
+	font-weight: 500;
+}
+
+.modal__button{
+	background-color: var(--pink-button);
+	color: var(--white-text);
+
+	padding: 20px;
+	width: 300px;
+
+	font-size: 17px;
+
+	margin-left: auto;
+	margin-right: auto;
+
+	border: 2px solid var(--pink-button);
+	border-radius: 25px;
+}
+
+.modal__button:hover{
+	background-color: var(--white-text);
+	color: var(--pink-button);
+
+
+
+	transition: 0.3s;
+}
+
+.modal__click{
+	display: flex;
+
+	margin-top: 50px;
+}
+
 /* /modal */
 /*modals*/
 

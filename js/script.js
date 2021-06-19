@@ -19,4 +19,6 @@ makeModal('#modal-3');
 makeModal('#modal-4');
 makeModal('#modal-5');
 makeModal('#modal-6');
+makeModal('#modal-7');
+makeModal('#modal-8');
 // end modals
