@@ -245,7 +245,7 @@
 
 	.head__title {
 		text-align: start;
-		font-size: 25px;
+		font-size: 28px;
 		font-weight: 400;
 		width: 100%;
 	}
@@ -303,6 +303,15 @@
 
 	.modal__author {
 		text-align: center;
+	}
+
+	.modal__subtitle{
+		text-align: center;
+	}
+
+	.modal__button{
+		width: 250px;
+		padding: 12px;
 	}
 	/* modal*/
 }
